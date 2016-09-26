@@ -16,3 +16,12 @@ Image is currently available via DockerHub, see Usage section.
   - 5.0.0
   - 4.3.17
   - 4.3.5
+
+# Usage
+
+    docker run --privileged=true -v /path/to/antigen:/usr/share/antigen -it desyncr/antigen-docker /bin/sh -c "./run.sh"
+
+# TODO
+
+  - Install python and pip (dev dependencies)
+
